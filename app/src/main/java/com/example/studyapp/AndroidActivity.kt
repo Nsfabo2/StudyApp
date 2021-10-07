@@ -9,7 +9,7 @@ class AndroidActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_android)
-        this.title = "Android Review"
+        this.title = "Android Metrials"
 
         var myRV = findViewById<RecyclerView>(R.id.MyAndroidRV)
         myRV.adapter = AndroidRecyclerViewAdapter()
